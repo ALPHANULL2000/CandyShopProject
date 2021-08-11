@@ -1,0 +1,375 @@
+body {
+    padding: 0;
+    margin:  0;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) ,rgba(0,0,0,0.3) )
+    ,url("https://img.freepik.com/free-vector/pink-multi-color-sweet-candy-valentines-wet-wash-splash-watercolor-background_70155-270.jpg");
+}
+
+@keyframes HeadBlinks {
+    from {
+        color: saddlebrown;
+        border: 3px dotted brown;
+    }
+    to {
+        color: antiquewhite;
+        border: 3px dashed brown;
+    }
+}
+
+#header_candyname {
+    background-color: #e5a300;
+    color: saddlebrown;
+    width: 96%;
+    font-size: 36px;
+    text-align: center;
+    padding: 9px;
+    border: 3px dotted brown;
+    border-radius: 9px;
+    position: sticky;
+    animation-name: HeadBlinks;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#section_cupcakes {
+    background-color: #fff6f6;
+    color: #974715;
+    border: 3px dotted #dc14c1;
+    border-radius: 9px;
+    width: 96%;
+    padding: 9px;
+}
+
+.article_cupcakes_item {
+    width: 240px;
+    margin: 24px;
+    padding: 0;
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid crimson;
+    box-shadow: #525252 6px 6px 6px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.article_cupcakes_item:hover {
+    width: 240px;
+    margin: 24px;
+    padding: 9px;
+    border: 3px dotted crimson;
+    border-radius: 9px;
+    box-shadow: #525252 18px 18px 18px;
+    transition: 300ms;
+}
+
+.article_cupcakes_img {
+    width: 100%;
+    height: 240px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 6px;
+}
+
+.article_cupcakes_name {
+    font-size: 24px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.article_cupcakes_info {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+    margin: 3px;
+}
+
+#section_sweeters {
+    background-color: #f6f6ff;
+    color: #001c71;
+    border: 3px dotted #1485dc;
+    border-radius: 9px;
+    width: 96%;
+    padding: 9px;
+    margin-top: 24px;
+}
+
+.article_sweeters_item {
+    width: 240px;
+    margin: 24px;
+    padding: 0;
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid orange;
+    box-shadow: #525252 6px 6px 6px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.article_sweeters_item:hover {
+    width: 240px;
+    margin: 24px;
+    padding: 9px;
+    border: 3px dotted orange;
+    border-radius: 9px;
+    box-shadow: #525252 18px 18px 18px;
+    transition: 300ms;
+}
+
+.article_sweeters_img {
+    width: 100%;
+    height: 240px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 6px;
+}
+
+.article_sweeters_info {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+    margin: 3px;
+}
+
+.article_sweeters_name {
+    font-size: 24px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#section_nuts {
+    background-color: #f6fff6;
+    color: #0e3800;
+    border: 3px dotted #00ad68;
+    border-radius: 9px;
+    width: 96%;
+    padding: 9px;
+    margin-top: 24px;
+}
+
+.article_nuts_item {
+    width: 240px;
+    background-color: white;
+    margin: 24px;
+    padding: 0;
+    border-radius: 9px;
+    border: 1px solid #b5d500;
+    box-shadow: #525252 6px 6px 6px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.article_nuts_item:hover {
+    width: 240px;
+    margin: 24px;
+    padding: 9px;
+    border: 3px dotted #b5d500;
+    border-radius: 9px;
+    box-shadow: #525252 18px 18px 18px;
+    transition: 300ms;
+}
+
+.article_nuts_img {
+    width: 100%;
+    height: 240px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 6px;
+}
+
+.article_nuts_info {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+    margin: 3px;
+}
+
+.article_nuts_name {
+    font-size: 24px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#section_cookies {
+    background-color: #fffff3;
+    color: #382300;
+    border: 3px dotted #ec8414;
+    border-radius: 9px;
+    width: 96%;
+    padding: 9px;
+    margin-top: 24px;
+}
+
+.article_cookies_item {
+    width: 240px;
+    margin: 24px;
+    padding: 0;
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid #6a0a00;
+    box-shadow: #525252 6px 6px 6px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+.article_cookies_item:hover {
+    width: 240px;
+    margin: 24px;
+    padding: 9px;
+    border: 3px dotted #6a0a00;
+    border-radius: 9px;
+    box-shadow: #525252 18px 18px 18px;
+    transition: 300ms;
+}
+
+.article_cookies_img {
+    width: 100%;
+    height: 240px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 6px;
+}
+
+.article_cookies_info {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+    margin: 3px;
+}
+
+.article_cookies_name {
+    font-size: 24px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#section_footer {
+    background-color: ghostwhite;
+    color: #5a3c3c;
+    display: inline-block;
+    border: 3px dotted #343434;
+    border-radius: 9px;
+    width: 96%;
+    padding: 9px;
+    margin-top: 24px;
+}
+
+.footer_arg {
+    width: 39%;
+    height: fit-content;
+    color: white;
+    padding: 9px;
+    margin-bottom: 9px;
+    text-align: center;
+    margin-right: 0;
+    border-radius: 9px 0 0 9px;
+    background: olive;
+    display: inline-block;
+}
+
+.footer_value {
+    width: 48%;
+    height: fit-content;
+    color: #363636;
+    padding: 9px;
+    text-align: center;
+    margin-left: 0;
+    border-radius: 0 9px 9px 0;
+    background: lightskyblue;
+    display: inline-block;
+}
+
+.footer_arg2 {
+    width: 39%;
+    height: fit-content;
+    color: white;
+    padding: 9px;
+    margin-bottom: 9px;
+    text-align: center;
+    margin-right: 0;
+    border-radius: 9px;
+    background: #1485dc;
+    transition: 300ms;
+    display: inline-block;
+}
+
+.footer_value2 {
+    width: 48%;
+    height: fit-content;
+    color: #363636;
+    padding: 9px;
+    text-align: center;
+    margin-left: 0;
+    border-radius: 9px;
+    background: goldenrod;
+    transition: 300ms;
+    display: inline-block;
+}
+
+.footer_value2:hover {
+    transition: 300ms;
+    color: #d5d4d4;
+    background: #a220da;
+}
+
+.footer_arg2:hover {
+    transition: 300ms;
+    background: #14dc6e;
+    color: #3d3c3c;
+}
+
+.navbar_main  {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 24px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+    border: #e5a300 dotted 3px;
+    overflow: hidden;
+    width: 96%;
+    background-color: #ffd373;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    transition: 300ms;
+    display: block;
+    color: chocolate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    transition: 300ms;
+    color: #ff5050;
+    font-size: 24px;
+    text-shadow: 0 6px 6px #a36d6d;
+}
+
+#search_candies {
+    transition: 300ms;
+    width: 96%;
+    padding: 6px 9px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    text-align: center;
+    color: #525252;
+    border-radius: 9px;
+    font-style: italic;
+    border: 3px orangered solid;
+}
+
+#search_candies:hover {
+    transition: 300ms;
+    border: 3px #00db96 solid;
+    background: ghostwhite;
+}
