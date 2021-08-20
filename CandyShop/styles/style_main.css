@@ -50,7 +50,6 @@ body {
     border: 1px solid crimson;
     box-shadow: #525252 6px 6px 6px;
     display: inline-block;
-    transition: 300ms;
 }
 
 .article_cupcakes_item:hover {
@@ -60,7 +59,6 @@ body {
     border: 3px dotted crimson;
     border-radius: 9px;
     box-shadow: #525252 18px 18px 18px;
-    transition: 300ms;
 }
 
 .article_cupcakes_img {
@@ -103,9 +101,7 @@ body {
     border-radius: 9px;
     border: 1px solid orange;
     box-shadow: #525252 6px 6px 6px;
-    display: inline-block;
-    transition: 300ms;
-}
+    display: inline-block;}
 
 .article_sweeters_item:hover {
     width: 240px;
@@ -114,7 +110,6 @@ body {
     border: 3px dotted orange;
     border-radius: 9px;
     box-shadow: #525252 18px 18px 18px;
-    transition: 300ms;
 }
 
 .article_sweeters_img {
@@ -158,7 +153,6 @@ body {
     border: 1px solid #b5d500;
     box-shadow: #525252 6px 6px 6px;
     display: inline-block;
-    transition: 300ms;
 }
 
 .article_nuts_item:hover {
@@ -168,7 +162,6 @@ body {
     border: 3px dotted #b5d500;
     border-radius: 9px;
     box-shadow: #525252 18px 18px 18px;
-    transition: 300ms;
 }
 
 .article_nuts_img {
@@ -212,7 +205,6 @@ body {
     border: 1px solid #6a0a00;
     box-shadow: #525252 6px 6px 6px;
     display: inline-block;
-    transition: 300ms;
 }
 
 .article_cookies_item:hover {
@@ -222,7 +214,6 @@ body {
     border: 3px dotted #6a0a00;
     border-radius: 9px;
     box-shadow: #525252 18px 18px 18px;
-    transition: 300ms;
 }
 
 .article_cookies_img {
@@ -293,7 +284,6 @@ body {
     margin-right: 0;
     border-radius: 9px;
     background: #1485dc;
-    transition: 300ms;
     display: inline-block;
 }
 
@@ -306,18 +296,15 @@ body {
     margin-left: 0;
     border-radius: 9px;
     background: goldenrod;
-    transition: 300ms;
     display: inline-block;
 }
 
 .footer_value2:hover {
-    transition: 300ms;
     color: #d5d4d4;
     background: #a220da;
 }
 
 .footer_arg2:hover {
-    transition: 300ms;
     background: #14dc6e;
     color: #3d3c3c;
 }
@@ -340,7 +327,6 @@ li {
 }
 
 li a {
-    transition: 300ms;
     display: block;
     color: chocolate;
     text-align: center;
@@ -349,14 +335,12 @@ li a {
 }
 
 li a:hover {
-    transition: 300ms;
     color: #ff5050;
     font-size: 24px;
     text-shadow: 0 6px 6px #a36d6d;
 }
 
 #search_candies {
-    transition: 300ms;
     width: 96%;
     padding: 6px 9px;
     margin-bottom: 18px;
@@ -369,7 +353,10 @@ li a:hover {
 }
 
 #search_candies:hover {
-    transition: 300ms;
     border: 3px #00db96 solid;
     background: ghostwhite;
+}
+
+.transition-300ms , .transition-300ms:hover ,li a , li a:hover{
+    transition: 300ms;
 }
